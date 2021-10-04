@@ -74,9 +74,11 @@ img {
 
 
 /* Parte Mediaquery  */
+
+/* Lezioni  */
 @media all and (max-width: 419px ) {
   .row{
-    max-width: 419px;
+    max-width: 100%;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -84,4 +86,21 @@ img {
     float: none;
     font-size: 2rem;
   }
+  /* Steps  */
+  .container.grey{
+    max-width: 419px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+  font-size: 2rem;
+  }
+  #steps .row>.central{
+    padding: 50px 0;
+    background-color: white;
+  }
+  
 }
+
